@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const { token } = require('./token.json');
+
 const client = new Discord.Client();
 
 // 連上線時的事件
@@ -34,4 +34,4 @@ client.on('message', msg => {
     }
 });
 
-client.login(token);
+client.login("MTA5NzA5MjYzMzQ1ODkyMTUxMg.GaWnAo.rm41sFBCqY52g_v-YhKvjiyMBGyHCGDCnV3l8M");
